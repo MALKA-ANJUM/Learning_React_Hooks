@@ -1,10 +1,16 @@
-import UseState from "./useState/UseState"
+import UseState from "./Practice/UseState"
+import ControlledForm from "./Practice/ControlledForm"
+import UncontrolledForm from "./Practice/UncontrolledForm"
+import ArrayMethod from "./Practice/ArrayMethod"
 
 function App() {
 
 	return (
 		<>
-			<UseState></UseState>
+			<ArrayMethod />
+			<UncontrolledForm />
+			<ControlledForm />
+			<UseState />
 		</>
 	)
 }
