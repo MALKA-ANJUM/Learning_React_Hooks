@@ -1,10 +1,10 @@
-📘### Learning React Hooks
+📘 Learning React Hooks
 
 This repository is created to learn and practice React Hooks with simple examples and use cases.
 It helps understand how hooks replace class components and make state and lifecycle management easier in functional components.
 ---
 
-🚀 ### Topics Covered
+🚀 Topics Covered
 
 useState – Manage component state
 
