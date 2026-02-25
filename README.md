@@ -1,6 +1,6 @@
 📘 Learning React Hooks
 
-This repository is created to learn and practice React Hooks with simple examples and use cases.
+This repository is created to learn and practice React Hooks with simple examples.
 ---
 
 🚀 Topics Covered
