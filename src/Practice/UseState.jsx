@@ -1,9 +1,11 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import useCounter from '../CustomHooks/useCounter';
 
 const UseState = () => {
   const [data, setData] = useState([])
   const [search, setSearch] = useState("");
+  const {count, increment, decrement, reset} = useCounter(10);
 
 	useEffect(() => {
 		axios.get("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&sparkline=false")
@@ -16,6 +18,13 @@ const UseState = () => {
 		);
 	return (
 		<div>
+			<p>{count}</p>
+
+			<button onClick={increment}>+</button>
+			<button onClick={decrement}>-</button>
+			<button onClick={reset}>Reset</button>
+			<hr />
+
 			<form>
 				<input type="text" value={search} name='search' onChange={(e) => setSearch(e.target.value)} />
 			</form>

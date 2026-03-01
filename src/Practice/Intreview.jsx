@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const Intreview = () => {
+const Intreview = ({ step, onSend }) => {
     const [count, setCount] = useState(0);
     const users = [
         { id: 1, name: "Ali", age: 22 },
@@ -13,6 +13,16 @@ const Intreview = () => {
 
     return (
         <div>
+            <button onClick={() => onSend("Hello")}>
+                Send
+            </button>
+            <hr />
+            <button onClick={() => setCount(count + step)}>
+                {count}
+            </button>
+
+            <hr />
+
             <p>{count}</p>
             <button onClick={() => setCount(count + 1)}>+</button>
             <button onClick={() => setCount(count - 1)}>-</button>
