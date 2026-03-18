@@ -38,7 +38,3 @@ Optimize performance by memoizing expensive calculations.
 🔴 useCallback
 
 Prevent unnecessary re-renders by memoizing functions.
-
-Simple UI for better understanding
-
-/src
