@@ -1,4 +1,4 @@
-⚛️ React Hooks Practice Repository
+⚛️ React Hooks
 
 This repository is created to learn, understand, and practice React Hooks through simple and practical examples.
 Each hook is demonstrated with a small, focused example to make concepts easy to grasp and reusable in real projects.
